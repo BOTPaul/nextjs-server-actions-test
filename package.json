@@ -1,0 +1,11 @@
+{
+  "name": "desk-booking-app",
+  "version": "1.0.0",
+  "description": "Basic desk booking application",
+  "scripts": {
+    "playwright:setup": "pnpm dlx playwright install-deps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

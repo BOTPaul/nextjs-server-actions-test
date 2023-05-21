@@ -1,0 +1,24 @@
+{
+  "build": {
+    "dockerfile": "dockerfile"
+  },
+  "remoteUser": "node",
+  "postCreateCommand": "pnpm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "yoavbls.pretty-ts-errors",
+        "bradlc.vscode-tailwindcss",
+        "GitHub.vscode-github-actions",
+        "ms-azuretools.vscode-docker",
+        "Prisma.prisma"
+      ]
+    }
+  },
+  "forwardPorts": [
+    80,
+    3000
+  ]
+}
